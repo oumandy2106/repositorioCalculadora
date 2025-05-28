@@ -32,7 +32,7 @@
         public void apagar(){
         if(encendido){
             encendido = false;
-            System.out.println("apagamdp");
+            System.out.println("apagando");
         }
         }
             }
