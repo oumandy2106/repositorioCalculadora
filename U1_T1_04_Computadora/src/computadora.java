@@ -28,11 +28,17 @@
             encendido = true;
             System.out.println("Encendido");
         }
+        else if (encendido){
+            System.out.println("la computadora esta prendida");
+        }
         }
         public void apagar(){
         if(encendido){
             encendido = false;
             System.out.println("apagando");
         }
+            else if (!encendido){
+                System.out.println("la computadora esta apagada");
+            }
         }
             }
